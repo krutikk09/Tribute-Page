@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="King Kohli - A premium tribute website dedicated to Virat Kohli, the legend of modern cricket. Explore his journey, records, achievements, and legacy.">
+    <meta name="keywords" content="Virat Kohli, King Kohli, Cricket, India, Tribute, Biography, Records, Achievements">
+    <meta name="author" content="King Kohli Tribute">
+    <meta name="theme-color" content="#0a0a1a">
+    <title>KING KOHLI | The Legend. The Leader. The Inspiration.</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <!-- ===================== CUSTOM CURSOR ===================== -->
+    <div class="custom-cursor" aria-hidden="true"></div>
+    <div class="cursor-follower" aria-hidden="true"></div>
+
+    <!-- ===================== SCROLL PROGRESS BAR ===================== -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ===================== NAVIGATION ===================== -->
+    <nav id="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">👑 VIRAT KOHLI</a>
+            <div class="nav-links" id="nav-links">
+                <a href="#about">About</a>
+                <a href="#timeline">Journey</a>
+                <a href="#rcb-journey">RCB Career</a>
+                <a href="#stats">Stats</a>
+                <a href="#records">Records</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#innings">Innings</a>
+                <a href="#quotes">Quotes</a>
+                <a href="#impact">Legacy</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section id="hero" aria-label="Hero Section">
+        <canvas id="particles-canvas" aria-hidden="true"></canvas>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" aria-label="Virat Kohli">
+                <span>V</span><span>I</span><span>R</span><span>A</span><span>T</span>
+                <span class="space">&nbsp;</span>
+                <span>K</span><span>O</span><span>H</span><span>L</span><span>I</span>
+            </h1>
+            <p class="hero-subtitle"></p>
+            <p class="hero-quote">"Self-belief and hard work will always earn you success."</p>
+            <div class="hero-buttons">
+                <a href="#timeline" class="btn-primary">Explore Journey</a>
+                <a href="#records" class="btn-secondary">View Records</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="28215">0</span>
+                    <span class="stat-label">International Runs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="85">0</span>
+                    <span class="stat-label">Centuries</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="559">0</span>
+                    <span class="stat-label">Matches Played</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="12">0</span>
+                    <span class="stat-label">ICC Awards</span>
+                </div>
+            </div>
+        </div>
+        <!-- Floating Cricket Elements -->
+        <div class="floating-elements" aria-hidden="true">
+            <div class="floating-bat">🏏</div>
+            <div class="floating-ball">🏐</div>
+            <div class="floating-star">⭐</div>
+            <div class="floating-crown">👑</div>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section id="about" aria-label="About Virat Kohli">
+        <div class="about-container">
+            <div class="about-image-wrapper reveal-left">
+                <img src="assets/images/hero-bg.jpg" alt="Virat Kohli - Cricket Legend" class="about-image" loading="lazy">
+            </div>
+            <div class="about-content reveal-right">
+                <span class="about-tag">The Man Behind The Legend</span>
+                <h2 class="about-title">About Virat Kohli</h2>
+                <p class="about-text">
+                    Born on November 5, 1988, in Delhi, Virat Kohli is widely regarded as one of the greatest batsmen in the history of cricket. From the dusty lanes of Delhi to the grandest stadiums in the world, his journey is a testament to unwavering determination, relentless hard work, and an insatiable hunger for success.
+                </p>
+                <p class="about-text">
+                    Kohli's passion for cricket ignited at the tender age of three when he picked up a bat and began swinging. Trained under coach Rajkumar Sharma at the West Delhi Cricket Academy, young Virat showed extraordinary promise that would soon captivate the entire nation.
+                </p>
+                <p class="about-text">
+                    His father, Prem Kohli, a criminal lawyer, was his biggest supporter, driving him to practice sessions every day. The tragic loss of his father during a Ranji Trophy match in 2006 became a defining moment — Virat returned to bat the very next day, showcasing the mental fortitude that would define his career.
+                </p>
+                <div class="about-details">
+                    <div class="detail-item reveal">
+                        <div class="detail-icon">🎂</div>
+                        <div class="detail-info">
+                            <strong>Born</strong>
+                            <span>November 5, 1988</span>
+                        </div>
+                    </div>
+                    <div class="detail-item reveal">
+                        <div class="detail-icon">📍</div>
+                        <div class="detail-info">
+                            <strong>Birthplace</strong>
+                            <span>Delhi, India</span>
+                        </div>
+                    </div>
+                    <div class="detail-item reveal">
+                        <div class="detail-icon">🏏</div>
+                        <div class="detail-info">
+                            <strong>Role</strong>
+                            <span>Right-hand Batsman</span>
+                        </div>
+                    </div>
+                    <div class="detail-item reveal">
+                        <div class="detail-icon">💍</div>
+                        <div class="detail-info">
+                            <strong>Spouse</strong>
+                            <span>Anushka Sharma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== JOURNEY TIMELINE ===================== -->
+    <section id="timeline" aria-label="Career Journey Timeline">
+        <div class="section-header reveal">
+            <span class="section-tag">The Journey</span>
+            <h2 class="section-title">From Streets to Stardom</h2>
+            <p class="section-subtitle">A chronicle of determination, passion, and unmatched excellence that shaped the King of Cricket</p>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline-line" aria-hidden="true"></div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-left">
+                    <span class="timeline-year">1998</span>
+                    <h3 class="timeline-card-title">The Beginning</h3>
+                    <p class="timeline-card-text">At age 9, young Virat joined the West Delhi Cricket Academy under coach Rajkumar Sharma. His natural talent and aggressive playing style were evident from the very first session.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-right">
+                    <span class="timeline-year">2002</span>
+                    <h3 class="timeline-card-title">Delhi Cricket</h3>
+                    <p class="timeline-card-text">Selected for Delhi's Under-15 team, Kohli began dominating age-group cricket. His scores consistently placed him among the top performers in the region.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-left">
+                    <span class="timeline-year">2008</span>
+                    <h3 class="timeline-card-title">U-19 World Cup Glory</h3>
+                    <p class="timeline-card-text">Captain Kohli led India to victory in the ICC U-19 Cricket World Cup in Malaysia. His leadership and batting prowess announced a future superstar to the world.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-right">
+                    <span class="timeline-year">2008</span>
+                    <h3 class="timeline-card-title">International Debut</h3>
+                    <p class="timeline-card-text">Made his ODI debut against Sri Lanka on August 18, 2008, at just 19 years old. The journey from Delhi's local grounds to the international stage had begun.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-left">
+                    <span class="timeline-year">2011</span>
+                    <h3 class="timeline-card-title">World Cup Winner</h3>
+                    <p class="timeline-card-text">Part of India's historic 2011 ICC Cricket World Cup winning squad. Kohli's contributions with the bat were instrumental throughout the tournament.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-right">
+                    <span class="timeline-year">2013</span>
+                    <h3 class="timeline-card-title">Rise in ODI Cricket</h3>
+                    <p class="timeline-card-text">Became the fastest batsman to reach 5,000 ODI runs. His consistency in run-chases earned him the nickname "Chase Master" as he dominated world cricket.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-left">
+                    <span class="timeline-year">2014</span>
+                    <h3 class="timeline-card-title">Test Cricket Success</h3>
+                    <p class="timeline-card-text">Stunning debut series as Test captain in Australia, scoring 692 runs including 4 centuries. Established himself as the backbone of India's Test batting.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-right">
+                    <span class="timeline-year">2017</span>
+                    <h3 class="timeline-card-title">Captaincy Era</h3>
+                    <p class="timeline-card-text">Led India to the No. 1 ranking in Test cricket. Under his captaincy, India became a dominant force in world cricket with an aggressive, fearless approach.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-left">
+                    <span class="timeline-year">2018</span>
+                    <h3 class="timeline-card-title">Fitness Revolution</h3>
+                    <p class="timeline-card-text">Transformed Indian cricket's fitness culture completely. His personal transformation from chubby teenager to world-class athlete inspired an entire generation.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot" aria-hidden="true"></div>
+                <div class="timeline-card reveal-right">
+                    <span class="timeline-year">2024</span>
+                    <h3 class="timeline-card-title">Modern Legend</h3>
+                    <p class="timeline-card-text">With 80+ international centuries and 27,000+ runs, Kohli's legacy is cemented as one of the greatest cricketers of all time. The King continues to reign.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== RCB JOURNEY ===================== -->
+    <section id="rcb-journey" class="rcb-theme" aria-label="RCB Journey">
+        <div class="section-header reveal">
+            <span class="section-tag" style="color: #e2b646;">Royal Challengers Bengaluru</span>
+            <h2 class="section-title">The Loyalty & Legacy</h2>
+            <p class="section-subtitle">Since 2008: The only player to represent a single franchise for 17+ years in the IPL.</p>
+        </div>
+        <div class="rcb-container">
+            <div class="rcb-content reveal-left">
+                <h3 class="rcb-title">Captain, Leader, Legend</h3>
+                <p class="rcb-text">
+                    Virat Kohli's association with RCB is more than just cricket; it's an emotion for millions of fans. From joining as a teenager in the inaugural 2008 season to becoming the highest run-scorer in the tournament's history, his loyalty to the franchise is unmatched.
+                </p>
+                <p class="rcb-text">
+                    Under his captaincy, RCB reached the finals in 2016, a season where he shattered all records by scoring an unbelievable 973 runs and 4 centuries. His passion on the field and unyielding commitment to the red and gold jersey have made him synonymous with the team.
+                </p>
+                <div class="rcb-milestones">
+                    <div class="rcb-milestone">
+                        <span class="milestone-year">2008</span>
+                        <span class="milestone-desc">Drafted via U-19</span>
+                    </div>
+                    <div class="rcb-milestone">
+                        <span class="milestone-year">2013</span>
+                        <span class="milestone-desc">Appointed Captain</span>
+                    </div>
+                    <div class="rcb-milestone">
+                        <span class="milestone-year">2016</span>
+                        <span class="milestone-desc">The 973-Run Season</span>
+                    </div>
+                    <div class="rcb-milestone">
+                        <span class="milestone-year">2024</span>
+                        <span class="milestone-desc">Orange Cap Winner</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rcb-image-wrapper reveal-right">
+                <img src="assets/images/rcb-bg.jpg" alt="Virat Kohli in RCB Colors" class="rcb-image" loading="lazy">
+                <div class="rcb-overlay-stats">
+                    <div class="overlay-stat">
+                        <strong>2</strong>
+                        <span>Orange Caps</span>
+                    </div>
+                    <div class="overlay-stat">
+                        <strong>17+</strong>
+                        <span>Seasons</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CAREER STATISTICS DASHBOARD ===================== -->
+    <section id="stats" aria-label="Career Statistics">
+        <div class="section-header reveal">
+            <span class="section-tag">The Numbers</span>
+            <h2 class="section-title">Career Statistics</h2>
+            <p class="section-subtitle">Numbers that define greatness — a statistical masterclass across all formats</p>
+        </div>
+        <div class="stats-grid">
+            <!-- ODI Stats -->
+            <div class="stat-card tilt-card reveal">
+                <div class="stat-card-icon">🏏</div>
+                <div class="stat-card-number" data-target="14797">0</div>
+                <div class="stat-card-label">ODI Total Runs</div>
+                <div class="stat-card-bar"><div class="stat-card-bar-fill" data-width="95%"></div></div>
+            </div>
+            <div class="stat-card tilt-card reveal">
+                <div class="stat-card-icon">💯</div>
+                <div class="stat-card-number" data-target="54">0</div>
+                <div class="stat-card-label">ODI Centuries</div>
+                <div class="stat-card-bar"><div class="stat-card-bar-fill" data-width="100%"></div></div>
+            </div>
+            <div class="stat-card tilt-card reveal">
+                <div class="stat-card-icon">📈</div>
+                <div class="stat-card-number" data-target="58.72">0</div>
+                <div class="stat-card-label">ODI Batting Average</div>
+                <div class="stat-card-bar"><div class="stat-card-bar-fill" data-width="85%"></div></div>
+            </div>
+            <!-- IPL Stats -->
+            <div class="stat-card tilt-card reveal rcb-stat-card">
+                <div class="stat-card-icon">🏆</div>
+                <div class="stat-card-number" data-target="9145">0</div>
+                <div class="stat-card-label">IPL Total Runs</div>
+                <div class="stat-card-bar"><div class="stat-card-bar-fill rcb-fill" data-width="98%"></div></div>
+            </div>
+            <div class="stat-card tilt-card reveal rcb-stat-card">
+                <div class="stat-card-icon">💯</div>
+                <div class="stat-card-number" data-target="9">0</div>
+                <div class="stat-card-label">IPL Centuries</div>
+                <div class="stat-card-bar"><div class="stat-card-bar-fill rcb-fill" data-width="95%"></div></div>
+            </div>
+            <div class="stat-card tilt-card reveal rcb-stat-card">
+                <div class="stat-card-icon">⚡</div>
+                <div class="stat-card-number" data-target="134.80">0</div>
+                <div class="stat-card-label">IPL Strike Rate</div>
+                <div class="stat-card-bar"><div class="stat-card-bar-fill rcb-fill" data-width="88%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== RECORDS & ACHIEVEMENTS ===================== -->
+    <section id="records" aria-label="Records and Achievements">
+        <div class="section-header reveal">
+            <span class="section-tag">Record Breaker</span>
+            <h2 class="section-title">Records & Achievements</h2>
+            <p class="section-subtitle">Breaking barriers and setting benchmarks that may never be surpassed</p>
+        </div>
+        <div class="records-grid">
+            <div class="record-card reveal">
+                <div class="record-card-inner">
+                    <div class="card-shine"></div>
+                    <div class="record-icon">🚀</div>
+                    <h3 class="record-title">Fastest to 8,000 ODI Runs</h3>
+                    <div class="record-value">175 innings</div>
+                    <p class="record-description">Shattered the record held by Sachin Tendulkar, reaching the milestone in just 175 innings.</p>
+                </div>
+            </div>
+            <div class="record-card reveal">
+                <div class="record-card-inner">
+                    <div class="card-shine"></div>
+                    <div class="record-icon">👑</div>
+                    <h3 class="record-title">Most ODI Centuries</h3>
+                    <div class="record-value">50 centuries</div>
+                    <p class="record-description">The undisputed king of ODI centuries, surpassing the great Sachin Tendulkar's record of 49.</p>
+                </div>
+            </div>
+            <div class="record-card reveal">
+                <div class="record-card-inner">
+                    <div class="card-shine"></div>
+                    <div class="record-icon">🏅</div>
+                    <h3 class="record-title">ICC Cricketer of the Decade</h3>
+                    <div class="record-value">2011–2020</div>
+                    <p class="record-description">Named ICC Cricketer of the Decade for his extraordinary dominance across all formats.</p>
+                </div>
+            </div>
+            <div class="record-card reveal">
+                <div class="record-card-inner">
+                    <div class="card-shine"></div>
+                    <div class="record-icon">🎖️</div>
+                    <h3 class="record-title">Most Runs as Captain</h3>
+                    <div class="record-value">12,883 runs</div>
+                    <p class="record-description">Highest run-scorer as captain in international cricket history across all formats combined.</p>
+                </div>
+            </div>
+            <div class="record-card reveal">
+                <div class="record-card-inner">
+                    <div class="card-shine"></div>
+                    <div class="record-icon">🔥</div>
+                    <h3 class="record-title">T20 World Cup POTT</h3>
+                    <div class="record-value">2014 & 2016</div>
+                    <p class="record-description">The only player in history to win the Player of the Tournament award twice in ICC T20 World Cups.</p>
+                </div>
+            </div>
+            <div class="record-card reveal">
+                <div class="record-card-inner">
+                    <div class="card-shine"></div>
+                    <div class="record-icon">🌍</div>
+                    <h3 class="record-title">Global Recognition</h3>
+                    <div class="record-value">Padma Shri & Khel Ratna</div>
+                    <p class="record-description">Honored with India's highest sporting awards — the Rajiv Gandhi Khel Ratna and Padma Shri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TROPHY SHOWCASE ===================== -->
+    <section id="trophies" aria-label="Trophy Showcase">
+        <div class="trophies-bg" aria-hidden="true"></div>
+        <div class="section-header reveal">
+            <span class="section-tag">Hall of Glory</span>
+            <h2 class="section-title">Trophy Showcase</h2>
+            <p class="section-subtitle">A glittering cabinet of cricket's most prestigious honors</p>
+        </div>
+        <div class="trophies-grid">
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">🏆</div>
+                <h3 class="trophy-name">ICC Cricket World Cup</h3>
+                <span class="trophy-year">2011</span>
+                <p class="trophy-description">Part of India's World Cup winning squad on home soil, a dream come true for the young star.</p>
+            </div>
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">🏆</div>
+                <h3 class="trophy-name">U-19 World Cup</h3>
+                <span class="trophy-year">2008</span>
+                <p class="trophy-description">Led India as captain to U-19 World Cup glory in Malaysia, announcing his arrival on the world stage.</p>
+            </div>
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">🏅</div>
+                <h3 class="trophy-name">ICC Test Championship Mace</h3>
+                <span class="trophy-year">2017-2021</span>
+                <p class="trophy-description">Led India to the No. 1 Test ranking and held the prestigious ICC Test Championship Mace.</p>
+            </div>
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">⭐</div>
+                <h3 class="trophy-name">Sir Garfield Sobers Trophy</h3>
+                <span class="trophy-year">2017, 2018</span>
+                <p class="trophy-description">Won the ICC Cricketer of the Year award twice, recognizing him as the world's best cricketer.</p>
+            </div>
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">🎖️</div>
+                <h3 class="trophy-name">Rajiv Gandhi Khel Ratna</h3>
+                <span class="trophy-year">2018</span>
+                <p class="trophy-description">India's highest sporting honor, awarded for his outstanding contribution to Indian cricket.</p>
+            </div>
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">🏅</div>
+                <h3 class="trophy-name">Padma Shri</h3>
+                <span class="trophy-year">2017</span>
+                <p class="trophy-description">India's fourth-highest civilian award, recognizing his distinguished service to the nation.</p>
+            </div>
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">👑</div>
+                <h3 class="trophy-name">ICC ODI Player of the Year</h3>
+                <span class="trophy-year">2012, 2017, 2018</span>
+                <p class="trophy-description">Won the prestigious award three times, cementing his dominance in limited-overs cricket.</p>
+            </div>
+            <div class="trophy-card reveal">
+                <div class="trophy-icon">🏆</div>
+                <h3 class="trophy-name">T20 World Cup</h3>
+                <span class="trophy-year">2024</span>
+                <p class="trophy-description">Player of the Tournament as India clinched the T20 World Cup, ending the ICC trophy drought.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== WHY I ADMIRE VIRAT KOHLI ===================== -->
+    <section id="admire" aria-label="Why I Admire Virat Kohli">
+        <div class="section-header reveal">
+            <span class="section-tag">Personal Tribute</span>
+            <h2 class="section-title">Why I Admire Virat Kohli</h2>
+            <p class="section-subtitle">Beyond the records and trophies, it's the qualities that make him truly extraordinary</p>
+        </div>
+        <div class="admire-grid">
+            <div class="admire-card reveal">
+                <div class="admire-icon">🎯</div>
+                <h3 class="admire-title">Discipline</h3>
+                <p class="admire-text">Virat's discipline extends beyond the cricket field — from his strict diet to his rigorous training regimen, he embodies the commitment needed to be the best.</p>
+            </div>
+            <div class="admire-card reveal">
+                <div class="admire-icon">📊</div>
+                <h3 class="admire-title">Consistency</h3>
+                <p class="admire-text">With 80+ centuries across formats, Kohli doesn't just score runs — he does it match after match, series after series, with a reliability that defies logic.</p>
+            </div>
+            <div class="admire-card reveal">
+                <div class="admire-icon">👑</div>
+                <h3 class="admire-title">Leadership</h3>
+                <p class="admire-text">As captain, he transformed India into the most aggressive and fearless team in world cricket, instilling a winning mentality that changed the game forever.</p>
+            </div>
+            <div class="admire-card reveal">
+                <div class="admire-icon">💪</div>
+                <h3 class="admire-title">Fitness</h3>
+                <p class="admire-text">His incredible fitness transformation revolutionized Indian cricket's approach to physical conditioning, raising the bar for every cricketer in the country.</p>
+            </div>
+            <div class="admire-card reveal">
+                <div class="admire-icon">🔥</div>
+                <h3 class="admire-title">Determination</h3>
+                <p class="admire-text">From overcoming personal tragedy to breaking records under pressure, Kohli's determination to succeed against all odds is nothing short of inspirational.</p>
+            </div>
+            <div class="admire-card reveal">
+                <div class="admire-icon">🧠</div>
+                <h3 class="admire-title">Mental Toughness</h3>
+                <p class="admire-text">His ability to perform under immense pressure, silence critics with his bat, and bounce back from failures showcases an unbreakable mental fortitude.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== IMAGE GALLERY ===================== -->
+    <section id="gallery" aria-label="Image Gallery">
+        <div class="section-header reveal">
+            <span class="section-tag">Visual Journey</span>
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">Iconic moments captured in time — from triumph to glory</p>
+        </div>
+        <div class="gallery-filters reveal">
+            <button class="gallery-filter-btn active" data-filter="all">All</button>
+            <button class="gallery-filter-btn" data-filter="batting">Batting</button>
+            <button class="gallery-filter-btn" data-filter="celebration">Celebrations</button>
+            <button class="gallery-filter-btn" data-filter="team">Team India</button>
+            <button class="gallery-filter-btn" data-filter="trophy">Trophies</button>
+            <button class="gallery-filter-btn" data-filter="fitness">Fitness</button>
+        </div>
+        <div class="gallery-grid">
+            
+            <div class="gallery-item reveal" data-category="celebration">
+                <img src="assets/images/parallax-bg.jpg" alt="Virat Kohli celebrating century" loading="lazy">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Century Celebration</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="team">
+                <img src="assets/images/celebration-bg.jpg" alt="Team India celebrating victory" loading="lazy">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Team India Triumph</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="trophy">
+                <img src="assets/images/trophy-bg.jpg" alt="Virat Kohli with trophy" loading="lazy">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Glory</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="fitness">
+                <img src="assets/images/fitness-bg.jpg" alt="Virat Kohli fitness training" loading="lazy">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">The Fitness Beast</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="batting">
+                <img src="assets/images/coverdrive-bg.jpg" alt="Virat Kohli cover drive" loading="lazy">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Poetry in Motion</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="celebration">
+                <img src="assets/images/century-bg.jpg" alt="Virat Kohli passionate celebration" loading="lazy">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Passion Unleashed</span>
+                </div>
+            </div>
+            <div class="gallery-item reveal" data-category="team">
+                <img src="assets/images/captain-bg.jpg" alt="Virat Kohli leading Team India" loading="lazy">
+                <div class="gallery-overlay">
+                    <span class="gallery-caption">Leading from the Front</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox" role="dialog" aria-label="Image Preview" aria-hidden="true">
+            <button class="lightbox-close" aria-label="Close Image Preview">&times;</button>
+            <div class="lightbox-content">
+                <img class="lightbox-img" id="lightbox-img" src="" alt="Gallery Preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== ICONIC INNINGS ===================== -->
+    <section id="innings" aria-label="Iconic Innings">
+        <div class="section-header reveal">
+            <span class="section-tag">Legendary Knocks</span>
+            <h2 class="section-title">Iconic Innings</h2>
+            <p class="section-subtitle">The performances that defined an era and etched his name in cricket folklore</p>
+        </div>
+        <div class="innings-grid">
+            <div class="innings-card reveal tilt-card">
+                <div class="innings-header">
+                    <span class="innings-opponent">🇮🇳 vs 🇵🇰 Pakistan</span>
+                    <div class="innings-score">183</div>
+                </div>
+                <div class="innings-details">
+                    <div class="innings-detail-item">
+                        <strong>Format</strong><span>ODI</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Venue</strong><span>Mirpur, 2012</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Context</strong><span>Asia Cup Chase</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Result</strong><span>India Won</span>
+                    </div>
+                </div>
+            </div>
+            <div class="innings-card reveal tilt-card">
+                <div class="innings-header">
+                    <span class="innings-opponent">🇮🇳 vs 🇱🇰 Sri Lanka</span>
+                    <div class="innings-score">133*</div>
+                </div>
+                <div class="innings-details">
+                    <div class="innings-detail-item">
+                        <strong>Format</strong><span>ODI</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Venue</strong><span>Hobart, 2012</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Context</strong><span>CB Series Chase</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Result</strong><span>India Won in 36.4 overs</span>
+                    </div>
+                </div>
+            </div>
+            <div class="innings-card reveal tilt-card">
+                <div class="innings-header">
+                    <span class="innings-opponent">🇮🇳 vs 🇿🇦 South Africa</span>
+                    <div class="innings-score">254*</div>
+                </div>
+                <div class="innings-details">
+                    <div class="innings-detail-item">
+                        <strong>Format</strong><span>Test</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Venue</strong><span>Pune, 2019</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Context</strong><span>Double Century</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Result</strong><span>India Won</span>
+                    </div>
+                </div>
+            </div>
+            <div class="innings-card reveal tilt-card">
+                <div class="innings-header">
+                    <span class="innings-opponent">🇮🇳 vs 🇵🇰 Pakistan</span>
+                    <div class="innings-score">82*</div>
+                </div>
+                <div class="innings-details">
+                    <div class="innings-detail-item">
+                        <strong>Format</strong><span>T20I</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Venue</strong><span>Melbourne, 2022</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Context</strong><span>T20 World Cup</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Result</strong><span>"The Shot of an Emporer"</span>
+                    </div>
+                </div>
+            </div>
+            <div class="innings-card reveal tilt-card">
+                <div class="innings-header" style="background: linear-gradient(135deg, #111, #800000);">
+                    <span class="innings-opponent">🔴 vs 👑 Punjab Kings</span>
+                    <div class="innings-score">113</div>
+                </div>
+                <div class="innings-details">
+                    <div class="innings-detail-item">
+                        <strong>Format</strong><span>T20 (IPL)</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Venue</strong><span>Bengaluru, 2016</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Context</strong><span>15 overs match (Stitches in hand)</span>
+                    </div>
+                    <div class="innings-detail-item">
+                        <strong>Result</strong><span>RCB Won</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FITNESS REVOLUTION ===================== -->
+    <section id="fitness" aria-label="Fitness Revolution">
+        <div class="section-header reveal">
+            <span class="section-tag">The Transformation</span>
+            <h2 class="section-title">Fitness Revolution</h2>
+            <p class="section-subtitle">How Virat Kohli transformed himself and Indian cricket's fitness culture forever</p>
+        </div>
+        <div class="fitness-container">
+            <div class="fitness-image reveal-left">
+                <img src="assets/images/fitness-bg.jpg" alt="Virat Kohli fitness transformation" loading="lazy">
+            </div>
+            <div class="fitness-content reveal-right">
+                <h3 class="fitness-subtitle">From Transformation to Revolution</h3>
+                <p class="fitness-text">
+                    Virat Kohli's fitness journey is arguably the most remarkable transformation in cricket history. From an overweight teenager who thrived on butter chicken and chole bhature, Kohli transformed himself into one of the fittest athletes in world sport.
+                </p>
+                <p class="fitness-text">
+                    His strict vegan diet, intense workout routines, and unwavering discipline raised the fitness standards for the entire Indian cricket team. Under his influence, the BCCI introduced mandatory fitness tests — the famous "Yo-Yo Test" — which became a prerequisite for team selection.
+                </p>
+                <div class="fitness-stats">
+                    <div class="fitness-stat reveal">
+                        <strong>17+</strong>
+                        <span>Yo-Yo Test Score</span>
+                    </div>
+                    <div class="fitness-stat reveal">
+                        <strong>100%</strong>
+                        <span>Diet Discipline</span>
+                    </div>
+                    <div class="fitness-stat reveal">
+                        <strong>6 Days</strong>
+                        <span>Weekly Training</span>
+                    </div>
+                    <div class="fitness-stat reveal">
+                        <strong>15+ Years</strong>
+                        <span>Peak Performance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== QUOTES CAROUSEL ===================== -->
+    <section id="quotes" aria-label="Virat Kohli Quotes">
+        <div class="section-header reveal">
+            <span class="section-tag">In His Words</span>
+            <h2 class="section-title">Iconic Quotes</h2>
+            <p class="section-subtitle">Words of wisdom from the King of Cricket</p>
+        </div>
+        <div class="quotes-wrapper">
+            <div class="quote-slide active">
+                <p class="quote-text">"Self-belief and hard work will always earn you success."</p>
+                <span class="quote-author">— Virat Kohli</span>
+            </div>
+            <div class="quote-slide">
+                <p class="quote-text">"I don't need to tell anyone how I feel about something. I show it on the field."</p>
+                <span class="quote-author">— Virat Kohli</span>
+            </div>
+            <div class="quote-slide">
+                <p class="quote-text">"If you don't back yourself, who will? I always believed in myself."</p>
+                <span class="quote-author">— Virat Kohli</span>
+            </div>
+            <div class="quote-slide">
+                <p class="quote-text">"Fitness is not about being better than someone else. It's about being better than you used to be."</p>
+                <span class="quote-author">— Virat Kohli</span>
+            </div>
+            <div class="quote-slide">
+                <p class="quote-text">"I love playing under pressure. In fact, if there is no pressure then I am not in my best."</p>
+                <span class="quote-author">— Virat Kohli</span>
+            </div>
+            <div class="quote-slide">
+                <p class="quote-text">"Winning or losing is part of life. What matters is that you give your 100% every single time."</p>
+                <span class="quote-author">— Virat Kohli</span>
+            </div>
+        </div>
+        <div class="quotes-dots" role="tablist" aria-label="Quote Navigation">
+            <button class="quote-dot active" data-index="0" role="tab" aria-label="Quote 1"></button>
+            <button class="quote-dot" data-index="1" role="tab" aria-label="Quote 2"></button>
+            <button class="quote-dot" data-index="2" role="tab" aria-label="Quote 3"></button>
+            <button class="quote-dot" data-index="3" role="tab" aria-label="Quote 4"></button>
+            <button class="quote-dot" data-index="4" role="tab" aria-label="Quote 5"></button>
+            <button class="quote-dot" data-index="5" role="tab" aria-label="Quote 6"></button>
+        </div>
+    </section>
+
+    <!-- ===================== FUN FACTS ===================== -->
+    <section id="facts" aria-label="Fun Facts">
+        <div class="section-header reveal">
+            <span class="section-tag">Did You Know?</span>
+            <h2 class="section-title">Fun Facts</h2>
+            <p class="section-subtitle">Interesting tidbits about the King that you may not know</p>
+        </div>
+        <div class="facts-grid">
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">⚽</div>
+                        <h3 class="fact-title">Favorite Sport</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">Apart from cricket, Virat is a massive football fan and supports Real Madrid and Arsenal. He has even played charity football matches!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">🎵</div>
+                        <h3 class="fact-title">Music Lover</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">Virat loves Punjabi music and Arijit Singh's songs. He often listens to music before batting to get into the zone!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">😢</div>
+                        <h3 class="fact-title">Father's Legacy</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">When his father passed away during a Ranji match in 2006, 18-year-old Virat returned to bat the next day, scoring 90 runs. The show must go on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">🥗</div>
+                        <h3 class="fact-title">Vegan Diet</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">Virat switched to a plant-based diet and has spoken extensively about how it improved his energy levels, recovery, and overall performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">🎮</div>
+                        <h3 class="fact-title">Gaming Enthusiast</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">Virat is an avid gamer and loves playing video games during tours. He has mentioned FIFA and Call of Duty as his favorites!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">🏷️</div>
+                        <h3 class="fact-title">Jersey No. 18</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">Virat wears jersey number 18 in memory of his father, who passed away on the 18th of December 2006. It holds deep emotional significance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">💼</div>
+                        <h3 class="fact-title">Business Mogul</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">Virat co-owns FC Goa (ISL), UAE Royals (IPTL), and has investments in fashion (Wrogn), restaurants (Nueva), and fitness (Chisel).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card reveal">
+                <div class="fact-card-inner">
+                    <div class="fact-card-front">
+                        <div class="fact-icon">🐕</div>
+                        <h3 class="fact-title">Animal Lover</h3>
+                    </div>
+                    <div class="fact-card-back">
+                        <p class="fact-detail">Virat and Anushka are passionate animal welfare advocates. They've consistently spoken against animal cruelty and support various animal NGOs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== IMPACT & LEGACY ===================== -->
+    <section id="impact" aria-label="Impact and Legacy">
+        <div class="section-header reveal">
+            <span class="section-tag">Beyond Cricket</span>
+            <h2 class="section-title">Impact & Legacy</h2>
+            <p class="section-subtitle">The lasting influence that extends far beyond the cricket field</p>
+        </div>
+        <div class="impact-grid">
+            <div class="impact-card reveal">
+                <div class="impact-number">01</div>
+                <h3 class="impact-title">Revolutionizing Indian Cricket</h3>
+                <p class="impact-text">Under Kohli's influence, Indian cricket transformed from a predominantly spin-friendly, home-track-bully team to a formidable force that wins overseas series. His aggressive brand of cricket changed the team's DNA forever.</p>
+            </div>
+            <div class="impact-card reveal">
+                <div class="impact-number">02</div>
+                <h3 class="impact-title">Inspiring a Generation</h3>
+                <p class="impact-text">Millions of young cricketers across India look up to Kohli not just for his batting, but for his attitude, fitness, and never-give-up spirit. He proved that talent combined with hard work creates legends.</p>
+            </div>
+            <div class="impact-card reveal">
+                <div class="impact-number">03</div>
+                <h3 class="impact-title">Leadership Legacy</h3>
+                <p class="impact-text">As captain, Kohli's win percentage was among the highest in cricket history. He instilled a culture of excellence, aggression, and accountability that transformed Indian cricket's mentality on the world stage.</p>
+            </div>
+            <div class="impact-card reveal">
+                <div class="impact-number">04</div>
+                <h3 class="impact-title">Global Influence</h3>
+                <p class="impact-text">Named in TIME's 100 Most Influential People, Kohli's influence transcends cricket. His brand value, social media presence, and cultural impact make him one of the most recognizable athletes globally.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PARALLAX QUOTE SECTION ===================== -->
+    <section id="parallax-quote" aria-label="Inspirational Quote">
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content">
+            <p class="parallax-text reveal">
+                "Greatness is not talent.<br>
+                Greatness is <span class="gold-text">consistency</span>."
+            </p>
+            <span class="parallax-author reveal">— The King Kohli Philosophy</span>
+        </div>
+    </section>
+
+    <!-- ===================== SOCIAL INFLUENCE ===================== -->
+    <section id="social" aria-label="Social Media Influence">
+        <div class="section-header reveal">
+            <span class="section-tag">Digital Kingdom</span>
+            <h2 class="section-title">Social Influence</h2>
+            <p class="section-subtitle">Commanding a global digital empire with hundreds of millions of followers</p>
+        </div>
+        <div class="social-grid">
+            <div class="social-card reveal">
+                <div class="social-icon social-instagram">📸</div>
+                <div class="social-number" data-target="270" data-suffix="M">0</div>
+                <div class="social-label">Instagram Followers</div>
+            </div>
+            <div class="social-card reveal">
+                <div class="social-icon social-twitter">🐦</div>
+                <div class="social-number" data-target="62" data-suffix="M">0</div>
+                <div class="social-label">Twitter Followers</div>
+            </div>
+            <div class="social-card reveal">
+                <div class="social-icon social-facebook">📘</div>
+                <div class="social-number" data-target="56" data-suffix="M">0</div>
+                <div class="social-label">Facebook Followers</div>
+            </div>
+            <div class="social-card reveal">
+                <div class="social-icon social-youtube">🎬</div>
+                <div class="social-number" data-target="3.2" data-suffix="M">0</div>
+                <div class="social-label">YouTube Subscribers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer id="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">👑 KING KOHLI</h3>
+                <p class="footer-text">A tribute to the man who redefined cricket with his passion, discipline, and unwavering commitment to excellence. This website is a fan-made tribute dedicated to celebrating the extraordinary journey of Virat Kohli.</p>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title">Quick Links</h3>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#timeline">Journey</a>
+                    <a href="#stats">Statistics</a>
+                    <a href="#records">Records</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#quotes">Quotes</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title">References</h3>
+                <div class="footer-links">
+                    <a href="https://www.espncricinfo.com" target="_blank" rel="noopener noreferrer">ESPN Cricinfo</a>
+                    <a href="https://www.icc-cricket.com" target="_blank" rel="noopener noreferrer">ICC Cricket</a>
+                    <a href="https://www.bcci.tv" target="_blank" rel="noopener noreferrer">BCCI Official</a>
+                    <a href="https://www.iplt20.com" target="_blank" rel="noopener noreferrer">IPL Official</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-credits">
+                Made with ❤️ as a tribute to the King of Cricket
+            </p>
+            <p class="footer-credits">
+                &copy; 2026 Virat Kohli Tribute | All Rights Reserved | This is a fan-made tribute website
+            </p>
+        </div>
+    </footer>
+
+    <!-- ===================== BACK TO TOP ===================== -->
+    <button id="back-to-top" aria-label="Back to Top" title="Back to Top">
+        ↑
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
